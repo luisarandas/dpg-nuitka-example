@@ -6,7 +6,9 @@
 
 import os
 
-dist_folder = "./dist"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+dist_folder = current_dir + os.sep + "dist"
+
 if not os.path.exists(dist_folder):
     os.mkdir(dist_folder)
 
