@@ -1,6 +1,6 @@
 
 
-# luis arandas 16-02-2022
+# luis arandas 16-02-2023
 # very simple two button dpg project compiling for nuitka on all platforms
 # supposed to be used as a fork to other app projects
 
