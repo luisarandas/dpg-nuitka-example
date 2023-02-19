@@ -1,8 +1,8 @@
 
 # dpg-nuitka-example <br>
 
-simple cross platform dpg app with nuitka <br>
-compiling on MacOS 12.2<br>
+simple cross platform dpg app compiling with nuitka <br>
+running on MacOS 12.2<br>
 
 ## macos installation <br>
 cd xyz/dpg-nuitka-example<br>
