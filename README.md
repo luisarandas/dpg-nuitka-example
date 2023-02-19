@@ -13,8 +13,9 @@ pip3 install pyinstaller<br>
 // wget http://nuitka.net/releases/Nuitka-0.7.6.tar.gz<br>
 // tar -xf Nuitka-0.7.6.tar.gz<br>
 // cd Nuitka-0.7.6 && python3 setup.py install<br>
+// pyinstaller --onefile --icon=./images/icons/appstore.icns --name=dpgnuitkaexample main.py<br>
 python3 -m nuitka --macos-create-app-bundle --macos-disable-console --macos-app-icon=./images/icons/appstore.icns --output-dir=./dist/ main.py
-pyinstaller --onefile --icon=./images/icons/appstore.icns --name=dpgnuitkaexample main.py<br>
+
 
 ## windows installation <br>
 
