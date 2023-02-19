@@ -5,7 +5,6 @@ simple cross platform dpg app compiling with nuitka <br>
 running on MacOS 12.2<br>
 
 ## macos installation <br>
-cd xyz/dpg-nuitka-example<br>
 python3 -m venv venv && source venv/bin/activate<br>
 pip3 install dearpygui<br>
 pip3 install Nuitka<br>
@@ -23,8 +22,8 @@ todo <br>
 
 ## linux installation <br>
 
-cd xyz/dpg-nuitka-example<br>
 python3 -m venv venv && source venv/bin/activate<br>
 pip3 install dearpygui<br>
 pip3 install Nuitka<br>
-python3 -m nuitka --linux-app --lto --plugin-enable=tk-inter --show-scons --output-dir=./dist/ main.py
+python3 -m nuitka --standalone --output-dir=./dist/ main.py<br>
+./dist/main.dist/main.bin<br>
