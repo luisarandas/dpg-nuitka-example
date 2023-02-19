@@ -25,4 +25,8 @@ python3 -m nuitka --standalone --output-dir=./dist/ main.py<br>
 
 ## windows installation <br>
 
-todo <br>
+pip3 install virtualenv<br>
+virtualenv venv && .\venv\Scripts\activate<br>
+pip3 install dearpygui<br>
+pip3 install Nuitka<br>
+nuitka --windows-disable-console --windows-icon-from-ico=./images/icons/appstore.ico --standalone --output-dir=./dist/ main.py
