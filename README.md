@@ -9,7 +9,7 @@ cd xyz/dpg-nuitka-example<br>
 python3 -m venv venv && source venv/bin/activate<br>
 pip3 install dearpygui<br>
 pip3 install Nuitka<br>
-pip3 install pyinstaller<br>
+// pip3 install pyinstaller<br>
 // wget http://nuitka.net/releases/Nuitka-0.7.6.tar.gz<br>
 // tar -xf Nuitka-0.7.6.tar.gz<br>
 // cd Nuitka-0.7.6 && python3 setup.py install<br>
@@ -23,4 +23,8 @@ todo <br>
 
 ## linux installation <br>
 
-todo <br>
+cd xyz/dpg-nuitka-example<br>
+python3 -m venv venv && source venv/bin/activate<br>
+pip3 install dearpygui<br>
+pip3 install Nuitka<br>
+python3 -m nuitka --linux-app --lto --plugin-enable=tk-inter --show-scons --output-dir=./dist/ main.py
