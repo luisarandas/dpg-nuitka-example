@@ -20,6 +20,8 @@ nuitka --windows-disable-console --windows-icon-from-ico=./images/icons/appstore
 python3 -m venv venv && source venv/bin/activate
 pip3 install dearpygui
 pip3 install Nuitka
+mkdir dist
+sudo apt-get install -y patchelf
 python3 -m nuitka --standalone --output-dir=./dist/ main.py
 ./dist/main.dist/main.bin
 ```
